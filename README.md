@@ -101,6 +101,5 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python train.py --backbone hrnet_w18 --pretrained -
 ```
 # Modify the backbones, models and checkpoint paths in L39-44 in test.py manually according to your saved models
 # Or simply use our final trained models
-CUDA_VISIBLE_DEVICES=0,1,2,3 python test.py
-```
+CUDA_VISIBLE_DEVICES=0,1,2,3 python test.py```
 
