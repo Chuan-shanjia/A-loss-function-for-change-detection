@@ -1,6 +1,6 @@
-# SenseEarth2020 - ChangeDetection
+# A-loss-function-for-change-detection
 
-**1st place in the Satellite Remote Sensing Image Change Detection 
+**A review of the paper "UAL: UNCHANGED AREA LOSS-FUNCTION FOR CHANGE DETECTION NETWORKS"
 [Challenge](https://rs.sensetime.com/competition/index.html#/info) 
 hosted by [SenseTime](https://www.sensetime.com/cn).**
 
@@ -19,22 +19,6 @@ The change detection task in this competition can be decomposed into two sub-tas
 
 ![image](https://github.com/LiheYoung/SenseEarth2020-ChangeDetection/blob/master/docs/pipeline.png)
 
-### Pseudo Labeling
-
-**The core practice is using self-distillation strategy to assign pseudo labels to unchanged areas.**
-
-Specifically, in our experiments, predictions of five HRNet-based segmentation models are ensembled, 
-serving as pseudo labels of unchanged areas. 
-
-The overall training process can be summarized as:
-
-* Training multiple large segmentation models.
-* Ensembling their predictions on unchanged areas.
-* Training a smaller model with both labeled and pseudo labeled areas.
-
-For more details, please refer to the 
-[technical report](https://github.com/LiheYoung/SenseEarth2020-ChangeDetection/blob/master/docs/technical%20report.pdf) 
-and [presentation](https://github.com/LiheYoung/SenseEarth2020-ChangeDetection/blob/master/docs/presentation.pptx).
 
 
 
