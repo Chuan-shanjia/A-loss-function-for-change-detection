@@ -17,10 +17,7 @@ The change detection task in this competition can be decomposed into two sub-tas
 
 ### Model
 
-![image](https://github.com/LiheYoung/SenseEarth2020-ChangeDetection/blob/master/docs/pipeline.png)
-
-
-
+![image](https://github.com/Chuan-shanjia/SenseEarth2020-ChangeDetection/blob/master/docs/schematic_%20diagram.png)
 
 ## Getting Started
 
