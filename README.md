@@ -1,8 +1,7 @@
-# A-loss-function-for-change-detection
+# A loss function for change detection
 
-**A review of the paper "UAL: UNCHANGED AREA LOSS-FUNCTION FOR CHANGE DETECTION NETWORKS"
-[Challenge](https://rs.sensetime.com/competition/index.html#/info) 
-hosted by [SenseTime](https://www.sensetime.com/cn).**
+A review of the paper "UAL: UNCHANGED AREA LOSS-FUNCTION FOR CHANGE DETECTION NETWORKS"
+
 
 ## Our Method
 
@@ -63,19 +62,6 @@ mkdir -p outdir/masks/test/im1 ; mkdir -p outdir/masks/test/im2 ;
 # Please refer to utils/options.py for more arguments
 # If hardware supports, more backbones can be trained, such as hrnet_w44, hrnet_w48
 CUDA_VISIBLE_DEVICES=0,1,2,3 python train.py --backbone hrnet_w18 --pretrained --model pspnet --lightweight
-```
-
-### Pseudo Labeling & Re-training 
-```
-# This step is optional but important in performance improvement
-# Modify the backbones, models and checkpoint paths in L20-40 in label.py manually according to your saved models
-# It is better to ensemble multiple trained models for pseudo labeling
-
-# Pseudo labeling
-CUDA_VISIBLE_DEVICES=0,1,2,3 python label.py
-
-# Re-training
-CUDA_VISIBLE_DEVICES=0,1,2,3 python train.py --backbone hrnet_w18 --pretrained --model pspnet --lightweight --use-pseudo-label
 ```
 
 ### Testing
