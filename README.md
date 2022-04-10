@@ -24,10 +24,10 @@ The change detection task in this competition can be decomposed into two sub-tas
 [Description](https://rs.sensetime.com/competition/index.html#/data) | [Download [password: f3qq]](https://pan.baidu.com/s/1Yg90vlAiKezSoxH7WEoV6g) 
 
 ### Pretrained Model
-[HRNet-W18](https://drive.google.com/file/d/1LHVq88dh4uRiq7pGbb-ZFoP8Na-XRUU2/view?usp=sharing) | [HRNet-W40](https://drive.google.com/file/d/1kyjB_FwYqTwe4B1Cj8my0SLQ9eUQA8nn/view?usp=sharing) | [HRNet-W44](https://drive.google.com/file/d/1ZHFHSrsL-Qoq-fzS7XoPayyQ_20V3RZ0/view?usp=sharing) | [HRNet-W48](https://drive.google.com/file/d/1o9ATkRkD2rVm4MMXY7HP3zNVWdB_jd0I/view?usp=sharing) | [HRNet-W64](https://drive.google.com/file/d/18aZW7Kja2WnzDT0IsvFAGUQktgv81Zd4/view?usp=sharing)
+[resnet-18](https://drive.google.com/file/d/1-vd9x7PMTgGTVQpAaNWF5tGy-NeLLdzB/view?usp=sharing) | [HRNet-W40](https://drive.google.com/file/d/1kyjB_FwYqTwe4B1Cj8my0SLQ9eUQA8nn/view?usp=sharing) | [HRNet-W44](https://drive.google.com/file/d/1ZHFHSrsL-Qoq-fzS7XoPayyQ_20V3RZ0/view?usp=sharing) | [HRNet-W48](https://drive.google.com/file/d/1o9ATkRkD2rVm4MMXY7HP3zNVWdB_jd0I/view?usp=sharing) | [HRNet-W64](https://drive.google.com/file/d/18aZW7Kja2WnzDT0IsvFAGUQktgv81Zd4/view?usp=sharing)
 
 ### Final Trained Model
-[PSPNet-HRNet-W18](https://drive.google.com/file/d/1xRoltAyFjT7DxvuxS5WGdjG0YOlIG8i6/view?usp=sharing) | [PSPNet-HRNet-W40](https://drive.google.com/file/d/1QKQ_gAoyA_ysFWj5kDO_TlPnGJKOUyYf/view?usp=sharing)
+[fcn-resnet18](https://drive.google.com/file/d/1UfByShVuCxnsXVpCCFXAaYns_RYJ6rY9/view?usp=sharing) | [PSPNet-HRNet-W40](https://drive.google.com/file/d/1QKQ_gAoyA_ysFWj5kDO_TlPnGJKOUyYf/view?usp=sharing)
 
 ### File Organization
 ```
