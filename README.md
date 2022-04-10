@@ -1,7 +1,7 @@
 # A loss function for change detection
+**Accepted for publication at [IGARSS-22](https://www.igarss2022.org/default.php), Kuala Lumpur, Malaysia.**
 
-A review of the paper "UAL: UNCHANGED AREA LOSS-FUNCTION FOR CHANGE DETECTION NETWORKS"
-
+Here, we provide the pytorch implementation of the paper: UAL: UNCHANGED AREA LOSS-FUNCTION FOR CHANGE DETECTION NETWORKS.
 
 ## Our Method
 
