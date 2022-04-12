@@ -24,10 +24,10 @@ The change detection task in this competition can be decomposed into two sub-tas
 [Description](https://rs.sensetime.com/competition/index.html#/data) | [Download [password: f3qq]](https://pan.baidu.com/s/1Yg90vlAiKezSoxH7WEoV6g) 
 
 ### Pretrained Model
-[resnet-18](https://drive.google.com/file/d/1-vd9x7PMTgGTVQpAaNWF5tGy-NeLLdzB/view?usp=sharing) | [HRNet-W40](https://drive.google.com/file/d/1kyjB_FwYqTwe4B1Cj8my0SLQ9eUQA8nn/view?usp=sharing) | [HRNet-W44](https://drive.google.com/file/d/1ZHFHSrsL-Qoq-fzS7XoPayyQ_20V3RZ0/view?usp=sharing) | [HRNet-W48](https://drive.google.com/file/d/1o9ATkRkD2rVm4MMXY7HP3zNVWdB_jd0I/view?usp=sharing) | [HRNet-W64](https://drive.google.com/file/d/18aZW7Kja2WnzDT0IsvFAGUQktgv81Zd4/view?usp=sharing)
+[resnet-18](https://drive.google.com/file/d/1-vd9x7PMTgGTVQpAaNWF5tGy-NeLLdzB/view?usp=sharing) | [resnet-34](https://drive.google.com/file/d/1w68FmzmTTCRpLjS4pQGiR4IGGotL5iXo/view?usp=sharing) | [resnet-50](https://drive.google.com/file/d/1yvo8LT3rN4XhHR0nYfi2aVjtb1tL54mJ/view?usp=sharing)
 
 ### Final Trained Model
-[fcn-resnet18](https://drive.google.com/file/d/1UfByShVuCxnsXVpCCFXAaYns_RYJ6rY9/view?usp=sharing) | [PSPNet-HRNet-W40](https://drive.google.com/file/d/1QKQ_gAoyA_ysFWj5kDO_TlPnGJKOUyYf/view?usp=sharing)
+[fcn-resnet18](https://drive.google.com/file/d/1UfByShVuCxnsXVpCCFXAaYns_RYJ6rY9/view?usp=sharing) | [fcn-resnet34](https://drive.google.com/file/d/1NL80WmA3dzcoV3za-E0bvU0ZFOzjkLUL/view?usp=sharing)
 
 ### File Organization
 ```
