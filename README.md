@@ -27,7 +27,7 @@ The change detection task in this competition can be decomposed into two sub-tas
 [resnet-18](https://drive.google.com/file/d/1-vd9x7PMTgGTVQpAaNWF5tGy-NeLLdzB/view?usp=sharing) | [resnet-34](https://drive.google.com/file/d/1w68FmzmTTCRpLjS4pQGiR4IGGotL5iXo/view?usp=sharing) | [resnet-50](https://drive.google.com/file/d/1yvo8LT3rN4XhHR0nYfi2aVjtb1tL54mJ/view?usp=sharing)
 
 ### Final Trained Model
-[fcn-resnet18](https://drive.google.com/file/d/1UfByShVuCxnsXVpCCFXAaYns_RYJ6rY9/view?usp=sharing) | [fcn-resnet34](https://drive.google.com/file/d/1NL80WmA3dzcoV3za-E0bvU0ZFOzjkLUL/view?usp=sharing)
+[fcn-resnet18](https://drive.google.com/file/d/1UfByShVuCxnsXVpCCFXAaYns_RYJ6rY9/view?usp=sharing) | [fcn-resnet34](https://drive.google.com/file/d/1NL80WmA3dzcoV3za-E0bvU0ZFOzjkLUL/view?usp=sharing) | [pspnet-resnet18](https://drive.google.com/file/d/1qsKBX4VU5RH_-yx4FXbRKXLprPPzSH7n/view?usp=sharing) | [pspnet-resnet34](https://drive.google.com/file/d/19Pdl1BR6_Hjdl9JcKTPwyR6dCYBb0C1G/view?usp=sharing)
 
 ### File Organization
 ```
