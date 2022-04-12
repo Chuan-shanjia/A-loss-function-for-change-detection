@@ -18,6 +18,10 @@ The change detection task in this competition can be decomposed into two sub-tas
 
 ![image](https://github.com/Chuan-shanjia/SenseEarth2020-ChangeDetection/blob/master/docs/schematic_%20diagram.png)
 
+### My Improvement
+
+In this project,we propose a loss function named UAL-function (Unchanged Area Loss-function). UAL aims to establish the semantic label correspondence within unchanged regions. It is simple and effective for improving semantic segmentation and change detection with respect to the feature separability. 
+
 ## Getting Started
 
 ### Dataset
@@ -37,9 +41,6 @@ mkdir -p data/dataset ; mkdir -p data/pretrained_models ;
 # store the trained models
 mkdir -p outdir/models ; 
 
-# store the pseudo masks
-mkdir -p outdir/masks/train/im1 ; mkdir -p outdir/masks/train/im2 ;
-
 # store predictions of validation set and testing set
 mkdir -p outdir/masks/val/im1 ; mkdir -p outdir/masks/val/im2 ;
 mkdir -p outdir/masks/test/im1 ; mkdir -p outdir/masks/test/im2 ;
@@ -52,16 +53,16 @@ mkdir -p outdir/masks/test/im1 ; mkdir -p outdir/masks/test/im2 ;
     │   └── val                    # the final testing set (without labels)
     |
     └── pretrained_models
-        ├── hrnet_w18.pth
-        ├── hrnet_w40.pth
+        ├── resnet18.pth
+        ├── resnet34.pth
         └── ...
 ```
 
 ### Training
 ```
 # Please refer to utils/options.py for more arguments
-# If hardware supports, more backbones can be trained, such as hrnet_w44, hrnet_w48
-CUDA_VISIBLE_DEVICES=0,1,2,3 python train.py --backbone hrnet_w18 --pretrained --model pspnet --lightweight
+# If hardware supports, more backbones can be trained, such as resnet50, resnet101
+CUDA_VISIBLE_DEVICES=0,1,2,3 python train.py --backbone "resnet18" --pretrained --model "fcn"
 ```
 
 ### Testing
