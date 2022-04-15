@@ -22,6 +22,10 @@ The change detection task in this competition can be decomposed into two sub-tas
 
 In this project,we propose a loss function named UAL-function (Unchanged Area Loss-function). UAL aims to establish the semantic label correspondence within unchanged regions. It is simple and effective for improving semantic segmentation and change detection with respect to the feature separability. 
 
+### Reproduction
+
+We also reproduct [FC-Siam-conc](https://github.com/rcdaudt/fully_convolutional_change_detection) and change the code to accomplish two sub-tasks.
+
 ## Getting Started
 
 ### Dataset
