@@ -16,7 +16,7 @@ The change detection task in this competition can be decomposed into two sub-tas
 
 ### Model
 
-![image]([https://github.com/Chuan-shanjia/SenseEarth2020-ChangeDetection/blob/master/docs/schematic_%20diagram.png](https://github.com/Chuan-shanjia/A-loss-function-for-change-detection/blob/master/docs/model.png))
+![image]([https://github.com/Chuan-shanjia/SenseEarth2020-ChangeDetection/blob/master/docs/schematic_%20diagram.png](https://github.com/Chuan-shanjia/A-loss-function-for-change-detection/docs/model.png))
 
 ### My Improvement
 
