@@ -26,6 +26,8 @@ In this project,we propose a loss function named UAL-function (Unchanged Area Lo
 
 We also reproduct [FC-Siam-conc](https://github.com/rcdaudt/fully_convolutional_change_detection) and change the code to accomplish two sub-tasks.
 
+We compare our models with [FC-Siam-conc](https://github.com/rcdaudt/fully_convolutional_change_detection) and [DTCDSCN](https://github.com/fitzpchao/DTCDSCN)
+
 ## Getting Started
 
 ### Dataset
