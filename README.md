@@ -16,7 +16,7 @@ The change detection task in this competition can be decomposed into two sub-tas
 
 ### Model
 
-![image](https://github.com/Chuan-shanjia/A-loss-function-for-change-detection/blob/master/docs/model.png)
+<image src="https://github.com/Chuan-shanjia/A-loss-function-for-change-detection/blob/master/docs/model.png" width="600px">
 
 ### My Improvement
 
